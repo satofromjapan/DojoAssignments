@@ -1,0 +1,6 @@
+Created new repository on GITHUB and called it DojoAssignments
+Navigated to DojoAssignment folder through the terminal
+Initialized a git repository in the DojoAssignment directory with terminal command git init.
+Added the changes through git add command, and commited with comments with the git commit -m command.
+Made and added content to readme.md file with vi readme.md command.
+Checked the status with git status command.
