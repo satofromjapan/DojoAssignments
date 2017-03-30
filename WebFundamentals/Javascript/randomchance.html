@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      "use strict";
+      function randomChance(quarters){
+
+        var total = quarters; //value to store total number of quaters
+
+        // console.log(payout);
+        // console.log(win);
+        while(total > 0){ //while the number of quaters is greater than 0
+          //console.log("in while loop");
+          var chance = Math.random(); //determing the win probility
+          chance = chance.toFixed(2);
+          // console.log(chance);
+          if(chance == 0.01) {
+
+            var payout = Math.floor(Math.random()*50) + 50; //determing the random payout between 50 and 100 quaters
+            total = total + payout;
+            console.log(total);
+          }
+          else {
+            total = total - 1;
+            console.log(total);
+          }
+        }
+
+      return total;
+
+      }
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

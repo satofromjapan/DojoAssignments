@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  width: 1000px
+}
+
+.header img,
+.header h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header img {
+  width: 100px;
+}
+
+.header h2 {
+  color: white;
+  background: linear-gradient(#2A6B9F, #5384AB, #2A6B9F);
+  padding: 15px;
+  margin-top: -25px;
+}
+
+.sidebar,
+.main {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sidebar {
+  width: 200px;
+}
+
+.sidebar h5,
+.sidebar p{
+  margin: 0 5px;
+}
+
+.sidebar button {
+  width: 190px;
+  color: white;
+  margin: 5px;
+  padding: 7px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#blue {
+  background: linear-gradient(#588EBB, #2B6092);
+  border: 0px;
+}
+
+#orange {
+  margin-top: -3px;
+  border: 0px;
+  background: linear-gradient(#E8A34D, #EE6800);
+}
+
+.ad {
+  background-image: url(images/ad_background.png);
+  height: 300px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.ad img {
+  width: 100px;
+  margin: 20px 30px 10px 30px;
+}
+
+.ad button {
+  width: 150px;
+  color: white;
+  font-size: 1em;
+  background-color: cyan;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 5px;
+}
+
+.main {
+  width: 750px;
+  padding-left: 30px;
+}
+
+.left-contact,
+.right-contact {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left-contact img {
+  height: 20px;
+  padding-top: 10px;
+}
+
+.right-contact {
+  margin-bottom: 10px;
+}
+
+#phone {
+  display: inline-block;
+  height: 30px;
+  margin-left: 545px;
+  margin-top: 5px;
+}
+
+#small-text {
+  font-size: 8px;
+  text-align: left;
+}
+
+#number {
+  font-size: 20px;
+  text-align: left;
+  color: #00AFDA;
+}
+
+.main ul,
+.main ol {
+  padding-left: 30px;
+}
+
+#client_server {
+  width: 30%;
+  margin: 0 275px;
+}
+
+.main h4 {
+  color: #286299;
+}
+
+.big3 {
+  border: 5px solid #007ADC;
+}
+
+.big3 img,
+.big3-text {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+}
+
+.big3 img {
+  width: 100px;
+
+}
+
+.big3-text {
+  width: 550px;
+}
+
+.big3-text p {
+  margin: 5px 0px;
+}
