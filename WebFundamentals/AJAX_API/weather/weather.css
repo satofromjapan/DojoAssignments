@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow: hidden;
+  background-image: url('http://reso3.yiihuu.com/img_1020068.jpg')
+}
+
+#date {
+  color: white;
+  font-size: 1.3em;
+  font-family: Georgia, Times, sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  opacity: 0.6;
+}
+
+#display {
+  color: white;
+  font-size: 2.9em;
+  top: 10px;
+  border-bottom: thin solid;
+  padding-bottom: 20px;
+  opacity: 0.80;
+}
+
+h1 {
+  margin: 10px;
+  color: white;
+  font-family: Georgia, Times, sans-serif;
+}
+
+input, button {
+  margin-left: 10px;
+}
+
+#search {
+  outline: none;
+  padding: 5px;
+  text-decoration: none;
+  opacity: 0.6;
+  background-color: black;
+  color: white;
+  border: thin solid white;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+#search:hover {
+  background-color: white;
+  color: black;
+  border: thin solid black;
+  opacity: 0.9;
+}
+
+input {
+  outline: none;
+  padding: 5px;
+  text-decoration: none;
+  opacity: 0.6;
+  background-color: black;
+  color: white;
+  border: thin solid white;
+  height: 30px;
+  width: 420px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.temp_display {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-family: Georgia, Times, sans-serif;
+  width: 400px;
+  color: white;
+  padding: 15px;
+  background-color: black;
+  opacity: 0.6;
+  border: thin solid white;
+  border-radius: 10px;
+}
+
+h2, p {
+  margin: 10px;
+}
