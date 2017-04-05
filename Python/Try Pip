@@ -1,0 +1,6 @@
+pip install -> installs a specified framework or library.
+pip list -> provides a list of all the frameworks and libraries that were installed
+pip freeze -> outputs installed packages in requirements format.
+pip uninstall -> uninstalls specified package
+pip show -> shows the information for the specified package, such as version, summary, author and home page.
+pip search -> shows all packages that have the specified parameter in the name of summary
