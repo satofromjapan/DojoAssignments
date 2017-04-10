@@ -1,0 +1,35 @@
+function swap(arr, num1, num2){
+  var temp = arr[num1];
+  arr[num1] = arr[num2];
+  arr[num2] = temp;
+  return arr;
+}
+
+swap([1,2,3,4],1,2);
+
+function swapPairs(arr){
+  var temp = 0;
+  for(var = i; i < arr.length; i+2){
+    temp = arr[i];
+    arr[i] = arr[i-1];
+    arr[i-1] = temp;
+  }
+  return arr;
+}
+
+swapPairs([1,2,3,4]);
+
+function minFront(arr){
+  var min = arr[0];
+  var indexMin = 0;
+  for(var i = 0; i < arr.length; i++){
+    if(arr[i] < min){
+      min = arr[i];
+      indexMin = i;
+    }
+  }
+  var result = swap(arr,0,indexMin);
+  return result;
+}
+
+minFront([4,2,1,3,5]);
